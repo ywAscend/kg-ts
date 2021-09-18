@@ -5,7 +5,7 @@ Imitation of Kugou music app
 ##### Technical Stack: 
 react+redux+react-router+ts+hooks
 
-##### runing
+##### Runing
 
 yarn 
 
