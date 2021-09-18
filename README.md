@@ -1,2 +1,5 @@
-# kg-ts
-reconstruction of kg by ts and hooks
+##### yarn 
+
+##### yarn start
+
+react+redux+react-router+ts+hooks

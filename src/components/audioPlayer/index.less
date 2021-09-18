@@ -1,0 +1,56 @@
+.musicPlayer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 72px;
+    width: 100%;
+    background: rgba(0,0,0,.9);
+    .info{
+        float: left;
+        height: inherit;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .imgContent{
+            height: 65px;
+            width: 65px;
+            margin: 3px 8px 3px 5px;
+            img{
+                height: 100%;
+                width: 100%;
+                border-radius: 3px;
+                border: none;
+            }
+        }
+        .infoText{
+            // height: 30px;
+            width: 67%;
+            p{
+                &:first-child{
+                    font-weight: bold;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    color: #fff;
+                }
+                &:last-child{
+                    font-size: 14px;
+                    color: #888;
+                }
+            }
+        }
+        
+    }
+    .menu{
+        float:right;
+        width: 40%;
+        height: inherit;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    
+}
