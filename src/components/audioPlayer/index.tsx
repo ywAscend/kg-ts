@@ -4,7 +4,7 @@ import { ImgUrlFilter } from "../../utils/common";
 import { PlayCircleOutlined, PauseCircleOutlined, ForwardOutlined,BackwardOutlined } from '@ant-design/icons'
 import './index.less'
 
-const Test: React.FC<IProps> = props => {
+const AudioPlayer: React.FC<IProps> = props => {
     const { togglePlayMusic, nextMusic, flag, myRef, musicData, prevMusic, autoPlayEnd } = props
     useEffect(() => {
         (document.getElementById('audio') as HTMLAudioElement).onended = () => {
@@ -30,4 +30,4 @@ const Test: React.FC<IProps> = props => {
     )
 }
 
-export default withAudio(memo(Test))
+export default withAudio(memo(AudioPlayer))
